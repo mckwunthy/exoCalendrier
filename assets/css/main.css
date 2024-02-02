@@ -1,0 +1,11 @@
+/*insertion de fontawesone cdn*/
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+/*insertion fichier utiles*/
+@import url(/assets/css/MyFrameworkCSS/framework.css);
+@import url(/assets/css/MyFrameworkCSS/color.css);
+@import url(/assets/css/MyFrameworkCSS/size.css);
+
+
+/*insertion de style*/
+@import url(/assets/css/style.css);

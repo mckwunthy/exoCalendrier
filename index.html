@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calendrier</title>
+		<link rel="stylesheet" href="/assets/css/main.css">
+	</head>
+	<body>
+		<h1>calendrier</h1>
+		<div class="container">
+			<div class="calendrier">
+				<div class="calendrier-header flex jcsa aic pad-15">
+					<div class="chevon-ouvrant">
+						<i class="fa-solid fa-chevron-left"></i>
+					</div>
+					<div class="mois">
+						<select name="mois" id="mois">
+							<option value="janvier" id="janvier">janvier</option>
+							<option value="fevrier" id="fevrier">fevrier</option>
+							<option value="mars" id="mars">mars</option>
+							<option value="avril" id="avril">avril</option>
+							<option value="mai" id="mai">mai</option>
+							<option value="juin" id="juin">juin</option>
+							<option value="juillet" id="juillet">juillet</option>
+							<option value="aout" id="aout">aout</option>
+							<option value="septembre" id="septembre">septembre</option>
+							<option value="octobre" id="octobre">octobre</option>
+							<option value="novembre" id="novembre">novembre</option>
+							<option value="decembre" id="decembre">decembre</option>
+						</select>
+					</div>
+					<div class="annee">
+						<select name="annee" id="annee"></select>
+					</div>
+					<div class="chevron-fermant">
+						<i class="fa-solid fa-chevron-right"></i>
+					</div>
+				</div>
+				<div class="divider"></div>
+				<div class="calendrier-day">
+					<div class="dimanche">Dim</div>
+					<div class="lundi">Lun</div>
+					<div class="mardi">Mar</div>
+					<div class="mercredi">Mer</div>
+					<div class="jeudi">Jeu</div>
+					<div class="vendrdi">Ven</div>
+					<div class="samedi">Sam</div>
+				</div>
+				<div class="calendrier-date"></div>
+			</div>
+		</div>
+		<script src="/assets/js/functions.js"></script>
+		<script src="/assets/js/main.js"></script>
+	</body>
+</html>

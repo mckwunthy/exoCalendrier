@@ -1,0 +1,65 @@
+.container {
+    border: 1px solid red;
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+.calendrier {
+    background-color: var(--main-color-white);
+    width: 500px;
+    box-shadow: 1px 1px 5px black, 1px 1px 5px black;
+    margin: 0 auto;
+}
+
+.calendrier-header {
+    background-color: var(--main-color);
+}
+
+.chevon-ouvrant,
+.chevron-fermant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color-white);
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+select {
+    color: var(--main-color-white);
+    border: none;
+    background-color: var(--main-color);
+}
+
+.divider {
+    background-color: var(--main-color-white);
+    height: 2px;
+}
+
+.calendrier-day {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px 0;
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+    font-size: 1.1rem;
+}
+
+.calendrier-date {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listeJourBloc:hover {
+    background-color: var(--main-color) !important;
+    /* color: #CBD6D5; */
+}
+
+/* .calendrier-date .desactive {
+    background-color: white;
+} */
