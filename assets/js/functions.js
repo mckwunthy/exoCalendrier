@@ -223,15 +223,21 @@ var functionListener = {
 
                 var dateJourJ = new Date()
                 var moisJ = dateJourJ.getMonth()
+                var anneeJ = dateJourJ.getFullYear()
                 var moisEncoursJ = moisTable[moisJ]
-                var jourJ = dateJourJ.getDay()
+                var jourJ = dateJourJ.getDate()
                 // console.log(moisEncoursJ);
                 // console.log(dateJourEtMois[1]);
+                // console.log(moisTable[dateJourEtMois[1]]);
+                // console.log(jourJ);
+                // console.log(moisJ);
+                // console.log(dateJourJ);
 
                 /*
                 choix date du jour*/
-                if (jourJ == e && moisTable[dateJourEtMois[1]] == moisEncoursJ) {
-                    jourAactiver.style.color = "red"
+                if ((jourJ + dateJourEtMois[0] - 1) == e && moisTable[dateJourEtMois[1]] == moisEncoursJ && anneeJ == anneeValeur) {
+                    jourAactiver.style.backgroundColor = "#B9D5D6"
+                    // console.log("ari");
                 }
 
                 jourAactiver.innerHTML = j

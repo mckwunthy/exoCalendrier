@@ -28,12 +28,14 @@
     border-radius: 50px;
     color: var(--main-color);
     font-weight: bold;
+    cursor: pointer;
 }
 
 select {
     color: var(--main-color-white);
     border: none;
     background-color: var(--main-color);
+    cursor: pointer;
 }
 
 .divider {
